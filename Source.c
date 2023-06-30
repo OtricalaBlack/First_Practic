@@ -13,7 +13,7 @@ void function(time_start)
 void print_name()
 {
 	printf("\t\t\t\t\t\t  +-------------------------+\n");
-	printf("\t\t\t\t\t\t  |   Сортировка вставкой   |\n");
+	printf("\t\t\t\t\t\t  |   РЎРѕСЂС‚РёСЂРѕРІРєР° РІСЃС‚Р°РІРєРѕР№   |\n");
 	printf("\t\t\t\t\t\t  +-------------------------+\n");
 	printf("\n\n\n\n");
 }
@@ -21,19 +21,19 @@ void print_name()
 void last_table(int size_mas, int max_num, int min_num, clock_t time_end)
 {
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
-	printf("\t\t\t\t      |    Размер множества    | %14d         |\n", size_mas);
+	printf("\t\t\t\t      |    Р Р°Р·РјРµСЂ РјРЅРѕР¶РµСЃС‚РІР°    | %14d         |\n", size_mas);
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
 
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
-	printf("\t\t\t\t      |    Минимальное число   | %13d          |\n", min_num);
+	printf("\t\t\t\t      |    РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ   | %13d          |\n", min_num);
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
 
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
-	printf("\t\t\t\t      |   Максимальное число   | %13d          |\n", max_num);
+	printf("\t\t\t\t      |   РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ   | %13d          |\n", max_num);
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
 
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
-	printf("\t\t\t\t      |    Время сортировки    | %15lf        |\n", (double)time_end / CLOCKS_PER_SEC);
+	printf("\t\t\t\t      |    Р’СЂРµРјСЏ СЃРѕСЂС‚РёСЂРѕРІРєРё    | %15lf        |\n", (double)time_end / CLOCKS_PER_SEC);
 	printf("\t\t\t\t      +------------------------+------------------------+\n");
 
 }
@@ -54,19 +54,19 @@ int main(time_end)
 	char file2[20] = "sert_mas_file";
 
 
-	printf("Размер множества: ");
+	printf("Р Р°Р·РјРµСЂ РјРЅРѕР¶РµСЃС‚РІР°: ");
 	scanf("%d", &size_mas);
 
 	unsert_mas = (int*)malloc(size_mas * sizeof(int));
 
 	printf("\n");
 
-	printf("Минимальное число: ");
+	printf("РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &min_num);
 
 	printf("\n");
 
-	printf("Максимальное число: ");
+	printf("РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ: ");
 	scanf("%d", &max_num);
 
 	printf("\n");
