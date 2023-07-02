@@ -17,18 +17,3 @@
 
 <p>Для реализации алгоритма сортировки вставками мы использовали язык С и среду разработки Visual Studio.</p>
 
-<pre>
-  <code>// Сортировка 
-  for (int i = 1; i &lt; size_mas + 1; i++)
-  {
-      int j = i; // Текущие расположение 
-      while (j &gt; 0 &amp;&amp; unsert_mas[j - 1] &gt; unsert_mas[j]) // Пока слева есть место и элемент слева больше элемента справа 
-      {
-          // Смена мест 
-          int tmp = unsert_mas[j - 1];
-          unsert_mas[j - 1] = unsert_mas[j];
-          unsert_mas[j] = tmp;
-          j--;
-      }
-  }</code>
-</pre>
