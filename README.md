@@ -25,8 +25,9 @@
 </ol>
 <p>Следуйте инструкциям, указанным в программе, чтобы выбрать сценарий сортировки и ввести необходимые данные.</p>
 
-<img src="https://github.com/OtricalaBlack/First_Practic/assets/113172110/ee9d7998-7a5b-43cc-9d39-86890f97e482" alt="screenshot1">
+<img src="https://github.com/OtricalaBlack/First_Practic/assets/113172110/b0a1b65f-9ba7-44b9-8f06-be95d5569b56" alt="screenshot1">
 <img src="https://github.com/OtricalaBlack/First_Practic/assets/113172110/f25e3ac4-09bc-43cc-85a9-ffdc488d7b52" alt="screenshot2">
+
 
 <h2>Зависимости</h2>
 <p>Данная программа не имеет внешних зависимостей и может быть скомпилирована и запущена на любой платформе, поддерживающей язык С.</p>
